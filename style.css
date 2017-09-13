@@ -1,0 +1,26 @@
+
+.logo-container {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.logo-container > .hari-logo {
+	margin-top: 50px;
+	width: 500px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.accordion-container {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 500px;
+	width: 100%;
+}
+
+.accordion-container > .ui.accordion {
+	margin: auto;
+}
