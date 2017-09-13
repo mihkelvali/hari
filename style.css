@@ -4,23 +4,56 @@
 	text-align: center;
 	width: 100%;
 }
+
 .logo-container > .hari-logo {
-	margin-top: 50px;
+	margin-top: 0px;
 	width: 500px;
 }
 
-h1 {
-	text-align: center;
-	margin-top: 150px;
+.ui.pointing.secondary.menu {
+	margin: auto;
+	margin-top: 50px;
+	width: 700px;
 }
 
-.accordion-container {
+.ui.pointing.secondary.menu .item {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50%;
+}
+
+.program > h1 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.program .accordion-container {
 	display: flex;
 	margin-top: 50px;
 	margin-bottom: 500px;
 	width: 100%;
 }
 
-.accordion-container > .ui.accordion {
+.program .accordion-container > .ui.accordion {
 	margin: auto;
+}
+
+.list > h1 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.list > .ui.middle.aligned.divided.list {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 500px;
+	width: 300px;
+}
+
+.list > .ui.middle.aligned.divided.list > .item {
+	height: auto;
+	padding: 10px 0;
+	text-align: center;
+	visibility: visible;
 }
